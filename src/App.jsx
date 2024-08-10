@@ -1,19 +1,17 @@
 import './App.css'
+import Nav from './component/nav'
+import Banner from './component/banner'
 
-function navigation() {
+
+
+function App() {
 
   return (
     <>
-      <div className='container-fluid'>
-        <ul className='flex gap-3 justify-center bg-black text-white' >
-          <li>Care Guide</li>
-          <li>Best Pet For You</li>
-          <li>Fing Suppliers</li>
-          <li>Build a Habitat</li>
-        </ul>
-      </div>
+      <Nav />
+      <Banner />
     </>
   )
 }
 
-export default navigation
+export default App
